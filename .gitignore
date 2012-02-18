@@ -1,0 +1,20 @@
+#gitignore from http://blog.kuroda.me/ticktech/?p=72
+.idea
+*.iml
+*.class
+*.h2.db
+.DS_Store
+/target
+/lib_managed
+/project/build/target
+/project/boot
+/project/plugins/lib_managed/
+/project/plugins/project/
+/project/plugins/src_managed/
+/project/plugins/target/
+/project/build/LiftProject.scala
+/src/main/resources/props/*.*.props
+/src/main/resources/props/*.*.*.props
+/src/main/resources/*.properties
+/log/*.log
+
