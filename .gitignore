@@ -3,6 +3,7 @@
 *.iml
 *.class
 *.h2.db
+*.swp
 .DS_Store
 /target
 /lib_managed
