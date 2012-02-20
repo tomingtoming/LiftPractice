@@ -28,7 +28,7 @@ object ChatServer extends LiftActor with ListenerManager {
    * messages, and then update all the listeners.
    */
   override def lowPriority = {
-    case s: String => msgs :+= s; updateListeners()
+    case s: String => msgs = s +: msgs; updateListeners()
   }
 }
 
